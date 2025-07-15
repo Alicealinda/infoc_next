@@ -1,0 +1,8 @@
+.menu {
+  background: linear-gradient(to right, #ff69b4, #00bfff, #8a2be2);
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,219 +1,41 @@
-export const noticias =[
-  {
-    "idnoticia": 1,
-    "titulonoticia": "Nova descoberta em Marte",
-    "conteudonoticia": "Nova descoberta em Marte. Esta notícia apresenta um desenvolvimento recente e relevante na área de pesquisa, abordando impactos sociais, científicos ou culturais. O conteúdo destaca a importância do tema, com foco na inovação, inclusão ou descoberta. A sociedade acompanha com interesse os desdobramentos.",
-    "tiponoticia": "pesquisa",
-    "datahoracadastro": "2025-05-17T18:17:34.750705"
-  },
-  {
-    "idnoticia": 2,
-    "titulonoticia": "Brasil vence torneio sub-20",
-    "conteudonoticia": "Brasil vence torneio sub-20. Esta notícia apresenta um desenvolvimento recente e relevante na área de ciência, abordando impactos sociais, científicos ou culturais. O conteúdo destaca a importância do tema, com foco na inovação, inclusão ou descoberta. A sociedade acompanha com interesse os desdobramentos.",
-    "tiponoticia": "ciência",
-    "datahoracadastro": "2025-05-16T19:17:34.750732"
-  },
-  {
-    "idnoticia": 3,
-    "titulonoticia": "Festival de cinema agita capital",
-    "conteudonoticia": "Festival de cinema agita capital. Esta notícia apresenta um desenvolvimento recente e relevante na área de pesquisa, abordando impactos sociais, científicos ou culturais. O conteúdo destaca a importância do tema, com foco na inovação, inclusão ou descoberta. A sociedade acompanha com interesse os desdobramentos.",
-    "tiponoticia": "pesquisa",
-    "datahoracadastro": "2025-05-21T00:17:34.750741"
-  },
-  {
-    "idnoticia": 4,
-    "titulonoticia": "Novo método para tratar Alzheimer",
-    "conteudonoticia": "Novo método para tratar Alzheimer. Esta notícia apresenta um desenvolvimento recente e relevante na área de entretenimento, abordando impactos sociais, científicos ou culturais. O conteúdo destaca a importância do tema, com foco na inovação, inclusão ou descoberta. A sociedade acompanha com interesse os desdobramentos.",
-    "tiponoticia": "entretenimento",
-    "datahoracadastro": "2025-05-18T00:17:34.750749"
-  },
-  {
-    "idnoticia": 5,
-    "titulonoticia": "Plataforma de cursos cresce 40%",
-    "conteudonoticia": "Plataforma de cursos cresce 40%. Esta notícia apresenta um desenvolvimento recente e relevante na área de esportes, abordando impactos sociais, científicos ou culturais. O conteúdo destaca a importância do tema, com foco na inovação, inclusão ou descoberta. A sociedade acompanha com interesse os desdobramentos.",
-    "tiponoticia": "esportes",
-    "datahoracadastro": "2025-05-17T00:17:34.750760"
-  },
-  {
-    "idnoticia": 6,
-    "titulonoticia": "Nova espécie de ave é descoberta",
-    "conteudonoticia": "Nova espécie de ave é descoberta. Esta notícia apresenta um desenvolvimento recente e relevante na área de esportes, abordando impactos sociais, científicos ou culturais. O conteúdo destaca a importância do tema, com foco na inovação, inclusão ou descoberta. A sociedade acompanha com interesse os desdobramentos.",
-    "tiponoticia": "esportes",
-    "datahoracadastro": "2025-05-23T19:17:34.750770"
-  },
-  {
-    "idnoticia": 7,
-    "titulonoticia": "Escola adota tecnologia inclusiva",
-    "conteudonoticia": "Escola adota tecnologia inclusiva. Esta notícia apresenta um desenvolvimento recente e relevante na área de esportes, abordando impactos sociais, científicos ou culturais. O conteúdo destaca a importância do tema, com foco na inovação, inclusão ou descoberta. A sociedade acompanha com interesse os desdobramentos.",
-    "tiponoticia": "esportes",
-    "datahoracadastro": "2025-05-20T14:17:34.750780"
-  },
-  {
-    "idnoticia": 8,
-    "titulonoticia": "Estudo analisa hábitos digitais",
-    "conteudonoticia": "Estudo analisa hábitos digitais. Esta notícia apresenta um desenvolvimento recente e relevante na área de esportes, abordando impactos sociais, científicos ou culturais. O conteúdo destaca a importância do tema, com foco na inovação, inclusão ou descoberta. A sociedade acompanha com interesse os desdobramentos.",
-    "tiponoticia": "esportes",
-    "datahoracadastro": "2025-05-23T07:17:34.750791"
-  },
-  {
-    "idnoticia": 9,
-    "titulonoticia": "Show gratuito reúne multidão",
-    "conteudonoticia": "Show gratuito reúne multidão. Esta notícia apresenta um desenvolvimento recente e relevante na área de educação, abordando impactos sociais, científicos ou culturais. O conteúdo destaca a importância do tema, com foco na inovação, inclusão ou descoberta. A sociedade acompanha com interesse os desdobramentos.",
-    "tiponoticia": "educação",
-    "datahoracadastro": "2025-05-20T16:17:34.750803"
-  },
-  {
-    "idnoticia": 10,
-    "titulonoticia": "Brasil lidera ranking olímpico",
-    "conteudonoticia": "Brasil lidera ranking olímpico. Esta notícia apresenta um desenvolvimento recente e relevante na área de ciência, abordando impactos sociais, científicos ou culturais. O conteúdo destaca a importância do tema, com foco na inovação, inclusão ou descoberta. A sociedade acompanha com interesse os desdobramentos.",
-    "tiponoticia": "ciência",
-    "datahoracadastro": "2025-05-21T13:17:34.750810"
-  },
-  {
-    "idnoticia": 11,
-    "titulonoticia": "Feira literária atrai visitantes",
-    "conteudonoticia": "Feira literária atrai visitantes. Esta notícia apresenta um desenvolvimento recente e relevante na área de educação, abordando impactos sociais, científicos ou culturais. O conteúdo destaca a importância do tema, com foco na inovação, inclusão ou descoberta. A sociedade acompanha com interesse os desdobramentos.",
-    "tiponoticia": "educação",
-    "datahoracadastro": "2025-05-27T05:17:34.750816"
-  },
-  {
-    "idnoticia": 12,
-    "titulonoticia": "Startup inova no agronegócio",
-    "conteudonoticia": "Startup inova no agronegócio. Esta notícia apresenta um desenvolvimento recente e relevante na área de cultura, abordando impactos sociais, científicos ou culturais. O conteúdo destaca a importância do tema, com foco na inovação, inclusão ou descoberta. A sociedade acompanha com interesse os desdobramentos.",
-    "tiponoticia": "cultura",
-    "datahoracadastro": "2025-05-18T13:17:34.750822"
-  },
-  {
-    "idnoticia": 13,
-    "titulonoticia": "Pesquisadores avançam em energia solar",
-    "conteudonoticia": "Pesquisadores avançam em energia solar. Esta notícia apresenta um desenvolvimento recente e relevante na área de esportes, abordando impactos sociais, científicos ou culturais. O conteúdo destaca a importância do tema, com foco na inovação, inclusão ou descoberta. A sociedade acompanha com interesse os desdobramentos.",
-    "tiponoticia": "esportes",
-    "datahoracadastro": "2025-05-16T23:17:34.750827"
-  },
-  {
-    "idnoticia": 14,
-    "titulonoticia": "Universidade lança programa de bolsas",
-    "conteudonoticia": "Universidade lança programa de bolsas. Esta notícia apresenta um desenvolvimento recente e relevante na área de esportes, abordando impactos sociais, científicos ou culturais. O conteúdo destaca a importância do tema, com foco na inovação, inclusão ou descoberta. A sociedade acompanha com interesse os desdobramentos.",
-    "tiponoticia": "esportes",
-    "datahoracadastro": "2025-05-25T07:17:34.750833"
-  },
-  {
-    "idnoticia": 15,
-    "titulonoticia": "Peça de teatro lota sessões",
-    "conteudonoticia": "Peça de teatro lota sessões. Esta notícia apresenta um desenvolvimento recente e relevante na área de pesquisa, abordando impactos sociais, científicos ou culturais. O conteúdo destaca a importância do tema, com foco na inovação, inclusão ou descoberta. A sociedade acompanha com interesse os desdobramentos.",
-    "tiponoticia": "pesquisa",
-    "datahoracadastro": "2025-05-19T11:17:34.750839"
-  },
-  {
-    "idnoticia": 16,
-    "titulonoticia": "Cientistas testam vacina contra dengue",
-    "conteudonoticia": "Cientistas testam vacina contra dengue. Esta notícia apresenta um desenvolvimento recente e relevante na área de pesquisa, abordando impactos sociais, científicos ou culturais. O conteúdo destaca a importância do tema, com foco na inovação, inclusão ou descoberta. A sociedade acompanha com interesse os desdobramentos.",
-    "tiponoticia": "pesquisa",
-    "datahoracadastro": "2025-05-26T12:17:34.750845"
-  },
-  {
-    "idnoticia": 17,
-    "titulonoticia": "Corrida de rua bate recorde de inscritos",
-    "conteudonoticia": "Corrida de rua bate recorde de inscritos. Esta notícia apresenta um desenvolvimento recente e relevante na área de educação, abordando impactos sociais, científicos ou culturais. O conteúdo destaca a importância do tema, com foco na inovação, inclusão ou descoberta. A sociedade acompanha com interesse os desdobramentos.",
-    "tiponoticia": "educação",
-    "datahoracadastro": "2025-05-17T22:17:34.750854"
-  },
-  {
-    "idnoticia": 18,
-    "titulonoticia": "Estudantes criam app educativo",
-    "conteudonoticia": "Estudantes criam app educativo. Esta notícia apresenta um desenvolvimento recente e relevante na área de esportes, abordando impactos sociais, científicos ou culturais. O conteúdo destaca a importância do tema, com foco na inovação, inclusão ou descoberta. A sociedade acompanha com interesse os desdobramentos.",
-    "tiponoticia": "esportes",
-    "datahoracadastro": "2025-05-21T18:17:34.750862"
-  },
-  {
-    "idnoticia": 19,
-    "titulonoticia": "Museu reabre com exposição interativa",
-    "conteudonoticia": "Museu reabre com exposição interativa. Esta notícia apresenta um desenvolvimento recente e relevante na área de cultura, abordando impactos sociais, científicos ou culturais. O conteúdo destaca a importância do tema, com foco na inovação, inclusão ou descoberta. A sociedade acompanha com interesse os desdobramentos.",
-    "tiponoticia": "cultura",
-    "datahoracadastro": "2025-05-26T22:17:34.750876"
-  },
-  {
-    "idnoticia": 20,
-    "titulonoticia": "Estudo revela impacto das mudanças climáticas",
-    "conteudonoticia": "Estudo revela impacto das mudanças climáticas. Esta notícia apresenta um desenvolvimento recente e relevante na área de cultura, abordando impactos sociais, científicos ou culturais. O conteúdo destaca a importância do tema, com foco na inovação, inclusão ou descoberta. A sociedade acompanha com interesse os desdobramentos.",
-    "tiponoticia": "cultura",
-    "datahoracadastro": "2025-05-20T15:17:34.750882"
-  },
-  {
-    "idnoticia": 21,
-    "titulonoticia": "Festival de música será híbrido",
-    "conteudonoticia": "Festival de música será híbrido. Esta notícia apresenta um desenvolvimento recente e relevante na área de cultura, abordando impactos sociais, científicos ou culturais. O conteúdo destaca a importância do tema, com foco na inovação, inclusão ou descoberta. A sociedade acompanha com interesse os desdobramentos.",
-    "tiponoticia": "cultura",
-    "datahoracadastro": "2025-05-26T11:17:34.750887"
-  },
-  {
-    "idnoticia": 22,
-    "titulonoticia": "Laboratório desenvolve teste rápido",
-    "conteudonoticia": "Laboratório desenvolve teste rápido. Esta notícia apresenta um desenvolvimento recente e relevante na área de cultura, abordando impactos sociais, científicos ou culturais. O conteúdo destaca a importância do tema, com foco na inovação, inclusão ou descoberta. A sociedade acompanha com interesse os desdobramentos.",
-    "tiponoticia": "cultura",
-    "datahoracadastro": "2025-05-23T09:17:34.750892"
-  },
-  {
-    "idnoticia": 23,
-    "titulonoticia": "Escola rural recebe equipamentos novos",
-    "conteudonoticia": "Escola rural recebe equipamentos novos. Esta notícia apresenta um desenvolvimento recente e relevante na área de esportes, abordando impactos sociais, científicos ou culturais. O conteúdo destaca a importância do tema, com foco na inovação, inclusão ou descoberta. A sociedade acompanha com interesse os desdobramentos.",
-    "tiponoticia": "esportes",
-    "datahoracadastro": "2025-05-23T21:17:34.750897"
-  },
-  {
-    "idnoticia": 24,
-    "titulonoticia": "Centro cultural promove oficinas gratuitas",
-    "conteudonoticia": "Centro cultural promove oficinas gratuitas. Esta notícia apresenta um desenvolvimento recente e relevante na área de pesquisa, abordando impactos sociais, científicos ou culturais. O conteúdo destaca a importância do tema, com foco na inovação, inclusão ou descoberta. A sociedade acompanha com interesse os desdobramentos.",
-    "tiponoticia": "pesquisa",
-    "datahoracadastro": "2025-05-22T21:17:34.750903"
-  },
-  {
-    "idnoticia": 25,
-    "titulonoticia": "Cientistas estudam genética de peixes amazônicos",
-    "conteudonoticia": "Cientistas estudam genética de peixes amazônicos. Esta notícia apresenta um desenvolvimento recente e relevante na área de esportes, abordando impactos sociais, científicos ou culturais. O conteúdo destaca a importância do tema, com foco na inovação, inclusão ou descoberta. A sociedade acompanha com interesse os desdobramentos.",
-    "tiponoticia": "esportes",
-    "datahoracadastro": "2025-05-17T22:17:34.750908"
-  },
-  {
-    "idnoticia": 26,
-    "titulonoticia": "Brasil sobe em ranking de educação",
-    "conteudonoticia": "Brasil sobe em ranking de educação. Esta notícia apresenta um desenvolvimento recente e relevante na área de cultura, abordando impactos sociais, científicos ou culturais. O conteúdo destaca a importância do tema, com foco na inovação, inclusão ou descoberta. A sociedade acompanha com interesse os desdobramentos.",
-    "tiponoticia": "cultura",
-    "datahoracadastro": "2025-05-18T08:17:34.750915"
-  },
-  {
-    "idnoticia": 27,
-    "titulonoticia": "Pesquisadores analisam solo lunar",
-    "conteudonoticia": "Pesquisadores analisam solo lunar. Esta notícia apresenta um desenvolvimento recente e relevante na área de entretenimento, abordando impactos sociais, científicos ou culturais. O conteúdo destaca a importância do tema, com foco na inovação, inclusão ou descoberta. A sociedade acompanha com interesse os desdobramentos.",
-    "tiponoticia": "entretenimento",
-    "datahoracadastro": "2025-05-23T19:17:34.750924"
-  },
-  {
-    "idnoticia": 28,
-    "titulonoticia": "Exposição de arte urbana é destaque",
-    "conteudonoticia": "Exposição de arte urbana é destaque. Esta notícia apresenta um desenvolvimento recente e relevante na área de entretenimento, abordando impactos sociais, científicos ou culturais. O conteúdo destaca a importância do tema, com foco na inovação, inclusão ou descoberta. A sociedade acompanha com interesse os desdobramentos.",
-    "tiponoticia": "entretenimento",
-    "datahoracadastro": "2025-05-16T22:17:34.750934"
-  },
-  {
-    "idnoticia": 29,
-    "titulonoticia": "Universidade participa de expedição polar",
-    "conteudonoticia": "Universidade participa de expedição polar. Esta notícia apresenta um desenvolvimento recente e relevante na área de entretenimento, abordando impactos sociais, científicos ou culturais. O conteúdo destaca a importância do tema, com foco na inovação, inclusão ou descoberta. A sociedade acompanha com interesse os desdobramentos.",
-    "tiponoticia": "entretenimento",
-    "datahoracadastro": "2025-05-26T11:17:34.750947"
-  },
-  {
-    "idnoticia": 30,
-    "titulonoticia": "Cinema nacional bate recorde de bilheteria",
-    "conteudonoticia": "Cinema nacional bate recorde de bilheteria. Esta notícia apresenta um desenvolvimento recente e relevante na área de cultura, abordando impactos sociais, científicos ou culturais. O conteúdo destaca a importância do tema, com foco na inovação, inclusão ou descoberta. A sociedade acompanha com interesse os desdobramentos.",
-    "tiponoticia": "cultura",
-    "datahoracadastro": "2025-05-22T08:17:34.750955"
-  },
-    {
-    "idnoticia": 31,
-    "titulonoticia": "Teste de API Com Car",
-    "conteudonoticia": "teste",
-    "tiponoticia": "cultura",
-    "datahoracadastro": "2025-05-22T08:17:34.750955"
-  }
-]
+export default function handler(req, res) {
+  const noticias = [
+    { id: 1, titulo: "Brasil vence Argentina em amistoso eletrizante", descricao: "Jogo termina em 3x2 com golaço de falta nos acréscimos.", tipo: "esportes" },
+    { id: 2, titulo: "Seleção feminina se prepara para a Copa do Mundo", descricao: "Treinamentos intensos marcam início da concentração.", tipo: "esportes" },
+    { id: 3, titulo: "Atleta paralímpico quebra recorde mundial", descricao: "Brasileiro surpreende em competição internacional.", tipo: "esportes" },
+    { id: 4, titulo: "Final do Brasileirão promete emoções", descricao: "Última rodada definirá o campeão e os rebaixados.", tipo: "esportes" },
+    { id: 5, titulo: "Time brasileiro é campeão da Libertadores", descricao: "Conquista histórica com vitória nos pênaltis.", tipo: "esportes" },
+    
+    { id: 6, titulo: "Congresso aprova nova reforma tributária", descricao: "Texto traz mudanças em impostos e simplificação fiscal.", tipo: "politica" },
+    { id: 7, titulo: "Senado discute regras para redes sociais", descricao: "Projeto prevê responsabilização de plataformas digitais.", tipo: "politica" },
+    { id: 8, titulo: "Presidente sanciona pacote econômico", descricao: "Medidas visam estimular investimento e geração de empregos.", tipo: "politica" },
+    { id: 9, titulo: "Novo ministro da Justiça toma posse", descricao: "Cerimônia aconteceu no Palácio do Planalto.", tipo: "politica" },
+    { id: 10, titulo: "Câmara aprova aumento do salário mínimo", descricao: "Novo valor entra em vigor no próximo mês.", tipo: "politica" },
+
+    { id: 11, titulo: "Startup brasileira lança app de segurança", descricao: "Aplicativo usa IA para alertar sobre emergências.", tipo: "tecnologia" },
+    { id: 12, titulo: "Novo chip promete mais velocidade nos celulares", descricao: "Fabricante anuncia tecnologia 30% mais eficiente.", tipo: "tecnologia" },
+    { id: 13, titulo: "Cientistas criam robô que realiza cirurgias com precisão", descricao: "Equipamento já foi testado com sucesso em hospitais.", tipo: "tecnologia" },
+    { id: 14, titulo: "Governo investe em banda larga rural", descricao: "Projeto levará internet para áreas remotas.", tipo: "tecnologia" },
+    { id: 15, titulo: "Brasil terá primeira fábrica de carros autônomos", descricao: "Montadora já iniciou a construção do complexo.", tipo: "tecnologia" },
+
+    { id: 16, titulo: "Enem terá novas regras a partir deste ano", descricao: "Mudanças incluem nova estrutura de questões.", tipo: "educacao" },
+    { id: 17, titulo: "Universidades ampliam vagas para cursos híbridos", descricao: "Modelo combina aulas presenciais e online.", tipo: "educacao" },
+    { id: 18, titulo: "Projeto incentiva leitura nas escolas públicas", descricao: "Alunos terão acesso gratuito a milhares de livros digitais.", tipo: "educacao" },
+    { id: 19, titulo: "MEC lança programa de capacitação para professores", descricao: "Formação será totalmente online e gratuita.", tipo: "educacao" },
+    { id: 20, titulo: "Escolas adotam tecnologias assistivas na sala de aula", descricao: "Ferramentas promovem inclusão de alunos com deficiência.", tipo: "educacao" },
+
+    { id: 21, titulo: "Novo tratamento para diabetes é testado no Brasil", descricao: "Pesquisadores mostram bons resultados com planta amazônica.", tipo: "saude" },
+    { id: 22, titulo: "Campanha de vacinação contra gripe começa hoje", descricao: "Postos de saúde atenderão em horário estendido.", tipo: "saude" },
+    { id: 23, titulo: "Hospital público bate recorde de cirurgias realizadas", descricao: "Mais de mil procedimentos em apenas um mês.", tipo: "saude" },
+    { id: 24, titulo: "Estudo mostra aumento da expectativa de vida", descricao: "População brasileira vive, em média, 76 anos.", tipo: "saude" },
+    { id: 25, titulo: "Alerta para nova variante de vírus respiratório", descricao: "Autoridades reforçam uso de máscaras em ambientes fechados.", tipo: "saude" },
+
+    { id: 26, titulo: "Pesquisa aponta crescimento da atividade física", descricao: "Número de pessoas praticando esportes subiu 20%.", tipo: "saude" },
+    { id: 27, titulo: "Brasil desenvolve vacina nacional contra dengue", descricao: "Imunizante já entrou na fase final de testes.", tipo: "saude" },
+    { id: 28, titulo: "Escola rural é destaque em olimpíada de matemática", descricao: "Estudantes superaram concorrentes de grandes centros.", tipo: "educacao" },
+    { id: 29, titulo: "Nova lei garante internet gratuita em escolas públicas", descricao: "Conexão será mantida com verba federal.", tipo: "educacao" },
+    { id: 30, titulo: "Startup lança plataforma de aulas com realidade virtual", descricao: "Ambiente imersivo facilita aprendizado em ciências e história.", tipo: "tecnologia" }
+  ];
+
+  res.status(200).json(noticias);
+}
